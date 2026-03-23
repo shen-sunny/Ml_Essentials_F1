@@ -12,3 +12,14 @@ Predicts whether an F1 driver will finish on the podium (top 3) using Ergast his
 ## How to run
 1. `pip install pandas numpy scikit-learn matplotlib seaborn`
 2. Open and run `f1_podium_prediction.ipynb`
+
+
+## Comands
+# 1. Check Python is found
+python --version
+
+# 2. Install ipykernel into that exact Python
+python -m pip install ipykernel
+
+# 3. Also install the project's libraries while you're here
+python -m pip install pandas numpy scikit-learn matplotlib seaborn
